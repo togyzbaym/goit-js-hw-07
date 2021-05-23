@@ -20,7 +20,7 @@ const gallegyEl = document.querySelector('#gallery');
 
 const makeImages = images.forEach(imge => {
   gallegyEl.insertAdjacentHTML('afterbegin', `<li class="gallery-item">
-    <img src=${imge.url} alt=${imge.alt} width=320 height=200></li>`);
+    <img src=${imge.url} alt=${imge.alt} width=320 height=200></li>`)
   });
  
 

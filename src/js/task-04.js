@@ -15,5 +15,4 @@ function onDecrimentValue() {
 function onIncimentValue() {
     counterValue += 1;
     refs.valueLabel.textContent = counterValue;
-
 }

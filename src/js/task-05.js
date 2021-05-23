@@ -7,7 +7,7 @@ refs.textInput.addEventListener('input',onInput);
 
 function onInput(event) {
     if (event.currentTarget.value !=='') {
-        refs.textOutput.textContent = event.currentTarget.value;
+        refs.textOutput.textContent = event.currentTarget.value.trimStart()||'незнакомец';
     }else 
     refs.textOutput.textContent = 'незнакомец';
 }
